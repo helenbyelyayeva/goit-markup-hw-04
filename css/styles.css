@@ -150,6 +150,7 @@ h1 {
   letter-spacing: 0.06em;
   padding-top: 150px;
   padding-bottom: 150px;
+  margin: 0 auto;
 }
 
 .btn {
@@ -288,10 +289,12 @@ h1 {
   justify-content: center;
 }
 
-.s-links:hover {
+.s-links:hover ,
+.s-links:focus {
   color: #fff;
   background-color: #2196f3;
   cursor: pointer;
+  outline: none;
 }
 .clients {
   padding-top: 94px;
@@ -324,10 +327,12 @@ h1 {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-.cl-link:hover {
+.cl-link:hover ,
+.cl-link:focus  {
   color: #2196f3;
   border-color: #2196f3;
   cursor: pointer;
+  outline: none;
 }
 .portfolio-heading {
   display: none;
